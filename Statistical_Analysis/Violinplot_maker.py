@@ -21,8 +21,8 @@ Change palette: https://python-graph-gallery.com/197-available-color-palettes-wi
     
 """
 
-filename = "/home/user/Desktop/Project_2/210809_LEAF_DATA_EE/ALL_LEAF_growth_night_samples_all_zones_BF_values.csv"
-dest_path = '/home/user/Desktop'
+filename = r"C:\Users\NOOPP\Downloads\ALL_LEAF_growth_night_samples_all_zones_BF_values.csv"
+dest_path = r"C:\Users\NOOPP\Desktop"
 
 File_Info = pd.read_csv(filename).dropna()
 
